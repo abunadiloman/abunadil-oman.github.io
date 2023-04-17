@@ -1,1 +1,0 @@
-# abunadil-oman.github.io
