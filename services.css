@@ -1,0 +1,19 @@
+.service-page{
+    flex-basis: 31%;
+    background:white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.service-page{
+    position: relative;
+    overflow: hidden;
+}
+.service-page img{
+    width: 100%;
+    border-radius: 10px;
+}
+.leyer2 h3{
+    font-size: 35px;
+}

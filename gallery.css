@@ -1,0 +1,60 @@
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+.row2 :hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Why-hire{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Why-hire h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Why-hire p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    line-height: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Why-hire-img{
+    flex-basis: 31%;
+    background:white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Why-hire-img{
+    position: relative;
+    overflow: hidden;
+}
+.Why-hire-img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .row2{
+        margin-top: 5%;
+        display: inline;
+        justify-content: space-between;
+        transition: 1s;
+    }
+    .row2 :hover{
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,79 @@
+.Footer{
+    background-color:silver;
+}
+.Footer h1{
+    color: black;
+}
+.Footer p{
+    color: black;
+}
+
+.fotter2{
+    display: flex;
+    background:rgb(192, 29, 29);
+    width: 100%;
+    margin: auto;
+    flex-basis: space-between;
+}
+.fotterleft{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fotterleft ul li{
+    padding: 10px;
+    margin-left: 60px;
+    list-style: none;
+}
+.fotterleft ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fotterleft ul li ::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: gold;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.fotterleft ul li :hover::after {
+    width: 100%;
+}   
+.fottermidle{
+    text-align: center;
+    margin-top: 100px ;
+    margin-left: 60px;
+    font-size: 15;
+}
+.fottermidle h3{
+    padding-top:90px;
+    color: black;
+    font-size: 10px;
+}
+.fottermidle p{
+   color: white;
+   font-size: 15px;
+}
+.fotterright{
+    margin: auto;
+    color: white;
+}
+.fotterright h3{
+    padding-bottom: 20px;
+}
+.fotterright tr td {
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .fottermidle{
+        display: none;
+    }
+    .fotterleft{
+        display:none;
+    }
+}
